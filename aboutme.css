@@ -1,0 +1,325 @@
+*
+{
+    margin: 0;
+}
+
+
+
+.menu
+{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    
+    padding-top: 30px;
+
+}
+.main_div
+{
+    display:flex;
+    justify-content: space-between;
+    background: rgba(0, 153, 255, 0.062); 
+    margin: 0%;
+    padding: 0%;
+}
+    
+.nav-item
+{
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+
+    
+}
+.img{
+    background-image: url("back.jpg");
+    background-size: 100% 160px;
+    background-repeat: no-repeat;
+}
+.nav-item:hover{
+    background:rgb(245, 246, 247);
+    
+}
+
+h1{
+
+    color: rgb(60, 60, 214);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.underline
+{
+    margin: auto auto;
+    height:5px;
+    width: 200px;
+    background-color: palevioletred;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    padding: auto auto;
+}
+.my-img{
+   margin-left: 100px;
+   margin-top: 50px;
+   height: auto;
+   max-width: 100%;
+    background-size: 200% 500%;
+    background-repeat: no-repeat;
+}
+
+.div1{
+    border-left: 6px solid blue;
+   height: 600px;
+   margin-top: 60px;
+ 
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: rgb(205, 219, 214);
+}
+.main2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    padding: auto auto;
+}
+
+.award1{
+    margin: auto auto;
+    margin-right: 40px;
+    text-align: center;
+}
+i{
+    color: rgb(46, 46, 197);
+    
+}
+#about-b {
+    background-color: rgb(46, 46, 46);
+    padding: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 30px;
+    color: white;
+}
+
+#about-b #progressHtml {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDoneHtml {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background: rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+#about-b #progressCss {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDoneCss {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background: rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+#about-b #progressCPP {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDoneCPP {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background:rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+#about-b #progressAndroid {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDoneAndroid {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background: rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+#about-b #progressJavascript {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDoneJavascript {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background: rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+#about-b #progressPHP {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+#about-b #progressDonePHP {
+    height: 100%;
+    color: #fff;
+    width: 0;
+    text-align: center;
+    background: rgb(241, 76, 104);
+    transition: 3s ease-in-out;
+}
+
+
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: auto auto;
+    background-color: palevioletred;
+}
+.icon{
+    
+    margin:auto auto;
+    text-align: center;
+}
+
+.counter{
+    color: rgb(60, 60, 214);;
+    font-size: 80px;
+}
+
+.main3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    padding: auto auto;
+}
+.b1{
+    border: 1px solid rgb(85, 78, 78);
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-right :10px;;
+}
+.main4{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    margin: 30px;   
+}
+.test{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+ flex-direction: row;
+ background-color: black;  
+ padding: auto auto;
+  
+}
+.footer-h1{
+    
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.footer-p{
+    color: rgb(118, 133, 146);
+    font-size: 30px;
+}
+.footer-addr{
+    
+    font-size: 40px;
+    width: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.footer-line{
+    
+    background-color: blue;
+    height: 6px;
+    width: 240px;
+    margin-left: 30px;
+
+    
+}
+.nav{
+    
+    color:aliceblue;
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.footer-a
+{
+    padding: 20px;
+    text-decoration: none;
+    color:rgb(118, 133, 146); 
+    font-size: 30px;
+}
+.follow{
+
+    color: aliceblue;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 500px;
+}
+.footer-e{
+    color:rgb(101, 121, 138) ;
+}

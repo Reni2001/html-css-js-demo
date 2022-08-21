@@ -1,0 +1,133 @@
+
+*
+{
+    margin: 0;
+}
+
+
+
+.menu
+{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    
+    padding-top: 30px;
+
+}
+.main_div
+{
+    display:flex;
+    justify-content: space-between;
+    background: rgba(0, 153, 255, 0.062); 
+    margin: 0%;
+    padding: 0%;
+}
+    
+.nav-item
+{
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+
+    
+}
+.img{
+    background-image: url("back.jpg");
+    background-size: 100% 160px;
+    background-repeat: no-repeat;
+}
+.nav-item:hover{
+    background:rgb(245, 246, 247);
+    
+}
+h3 {
+    color: #ffbc00;
+}
+
+
+.projects {
+    line-height: 1.5rem;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background: #555;
+    color: #fff;
+}
+
+.pre {
+    overflow-y: scroll;
+    height: 30vh;
+}
+
+.container1 h1 {
+    background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")no-repeat center center/cover;
+    padding: 80px;
+    text-align: center;
+    font-size: 65px;
+    opacity: 1;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+ flex-direction: row;
+ background-color: black;  
+ 
+  
+}
+.footer-h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+.footer-p{
+    color: rgb(118, 133, 146);
+    font-size: 30px;
+}
+.footer-addr{
+    
+    font-size: 40px;
+    width: 300px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.footer-line{
+    
+    background-color: blue;
+    height: 6px;
+    width: 250px;
+    margin-right: 150px;
+
+    
+}
+.nav{
+    
+    color:aliceblue;
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.footer-a
+{
+    
+    padding: 20px;
+    text-decoration: none;
+
+    color:rgb(118, 133, 146); 
+    font-size: 30px;
+}
+.follow{
+    
+    color: aliceblue;
+    padding-left: 200px;
+    padding-right: 100px;
+    width: 500px;
+}
+.footer-e{
+    color:rgb(101, 121, 138) ;
+}
